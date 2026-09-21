@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy — Pet Health Tracker: Vaccines</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0f1117;
+      --card-bg: #181b24;
+      --border: #262b3a;
+      --primary: #2fb8a0;
+      --primary-dim: #1e8a77;
+      --text: #e6e8ee;
+      --text-muted: #8e95a5;
+      --font-main: 'Plus Jakarta Sans', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-main);
+      font-weight: 400;
+      line-height: 1.7;
+      font-size: 15px;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 48px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+
+    .badge {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--primary);
+      background: rgba(242, 139, 80, 0.12);
+      padding: 4px 10px;
+      border-radius: 6px;
+      margin-bottom: 12px;
+      font-weight: 500;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .meta {
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      color: #fff;
+      margin-top: 36px;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+
+    h3 {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--primary);
+      margin-top: 24px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 16px;
+      color: #c9ceda;
+    }
+
+    ul {
+      margin-left: 20px;
+      margin-bottom: 20px;
+      color: #c9ceda;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .highlight-box {
+      background: rgba(242, 139, 80, 0.08);
+      border-left: 4px solid var(--primary);
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 20px 0;
+    }
+
+    .highlight-box p {
+      margin-bottom: 0;
+      color: var(--text);
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 640px) {
+      .container { padding: 24px 16px; }
+      h1 { font-size: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="badge">LEGAL &amp; PRIVACY</span>
+      <h1>Privacy Policy — Pet Health Tracker: Vaccines</h1>
+      <p class="meta">Application: Pet Health Tracker: Vaccines (package <code>tech.marava.pet_health_tracker</code>)<br/>
+        Developer: Marava • Last updated: September 21, 2026</p>
+    </header>
+
+    <div class="summary">
+      <strong>The summary:</strong> You do not need an account. Your pets' records stay on your phone and the app works fully offline. We never sell your data. When online, the app talks to Google services for crash reporting, analytics, ads, and (if you subscribe) Google Play Billing via RevenueCat.
+    </div>
+
+    <h2>1. Information stored on your device</h2>
+    <p>Everything you enter — pet names, species, birthdays, vaccine and preventive schedules, dose history, weights, and vet-visit notes — is stored in a local database on your device. It is never uploaded to a server we run; we do not operate one.</p>
+    <p><strong>Android automatic backup.</strong> Android may include this local database in your device's Google backup so your records return after a reinstall or on a new phone. That backup is governed by your Google account settings and <a href="https://policies.google.com/privacy">Google's privacy policy</a>; you can disable it under Android Settings → Google → Backup.</p>
+    <p><strong>Backup files and PDF exports.</strong> If you choose to export a backup file or a PDF health record, the app writes it to a location you pick or hands it to the share sheet. Where that file goes (email, Drive, a vet) is entirely your choice; we never receive a copy.</p>
+    <p><strong>Reminders.</strong> Local notifications are scheduled on your device to remind you of due doses. No reminder data leaves the device.</p>
+
+    <h2>2. Crash diagnostics (Firebase Crashlytics)</h2>
+    <p>If the app crashes, Firebase Crashlytics (Google) receives non-personally-identifiable diagnostics: device model and OS version, memory state, and stack traces. This helps us fix bugs. No pet records are included.</p>
+
+    <h2>3. Analytics (Google Analytics for Firebase)</h2>
+    <p>We collect aggregate usage events — for example that a pet was added, a dose was logged, or a paywall was shown — together with an anonymous, resettable app-instance identifier and country-level region derived from IP. We use this to understand which features matter and to measure retention. Event names never contain your pet's name, notes, or other free text.</p>
+
+    <h2>4. Advertising (Google AdMob)</h2>
+    <p>The free version shows banner ads, an occasional full-screen ad after you save a record, and an optional rewarded video you can choose to watch to unlock a one-off PDF export. Google AdMob may process device identifiers (such as the Google Advertising ID) and ad-interaction data under <a href="https://policies.google.com/technologies/ads">Google's advertising policies</a>. You can reset your advertising ID or opt out of personalised ads in Android Settings → Google → Ads. Subscribing to Pro removes all ads.</p>
+
+    <h2>5. Subscriptions (Google Play Billing &amp; RevenueCat)</h2>
+    <p>Pet Health Pro is an optional auto-renewing subscription (monthly or yearly, with a free trial for new subscribers) purchased through Google Play Billing. We never see or store your payment details. To verify your subscription across reinstalls we use RevenueCat, which receives an anonymous app-user ID and your Google Play purchase token — see <a href="https://www.revenuecat.com/privacy">RevenueCat's privacy policy</a>. Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current period; manage or cancel any time in Google Play → Payments &amp; subscriptions.</p>
+
+    <h2>6. Permissions</h2>
+    <ul>
+      <li><strong>Notifications</strong> — to deliver dose reminders you set.</li>
+      <li><strong>Run at startup</strong> (<code>RECEIVE_BOOT_COMPLETED</code>) — to re-schedule reminders after a reboot.</li>
+      <li><strong>Internet</strong> — for ads, analytics, crash reports, and subscription validation only. The app's core features do not need it.</li>
+    </ul>
+    <p>The app does not request location, contacts, camera, microphone, or storage-wide access.</p>
+
+    <h2>7. Children's privacy</h2>
+    <p>The app is a general-audience utility and is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, contact us and we will delete it.</p>
+
+    <h2>8. Data retention &amp; deletion</h2>
+    <p>Because there is no account, uninstalling the app or clearing its storage deletes all pet records on the device immediately. To also remove the copy in your Google backup, delete the app's backup under Android Settings → Google → Backup. For analytics or crash-data deletion requests, email us at the address below.</p>
+
+    <h2>9. Changes to this policy</h2>
+    <p>We will update the "Last updated" date above when this policy changes. Material changes will be noted in the app's release notes.</p>
+
+    <h2>10. Contact us</h2>
+    <p class="contact">Marava Support<br/>Email: <a href="mailto:tech.marava@gmail.com">tech.marava@gmail.com</a><br/>Website: <a href="https://marava.tech">https://marava.tech</a></p>
+
+    <footer>&copy; 2026 Marava. All rights reserved.</footer>
+  </div>
+</body>
+</html>
